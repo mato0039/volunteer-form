@@ -1,0 +1,35 @@
+html {
+  font-family: "Noto Serif", serif;
+  background-color: #70ad55;
+}
+
+label {
+  display: block;
+}
+
+form {
+  background-color: #fff;
+}
+
+.header {
+  color: #fff;
+}
+
+fieldset {
+  border: none;
+}
+
+input,
+select,
+textarea,
+.checkbox {
+  border-color: #6e8c62;
+}
+
+.section-border {
+  border-bottom: 1px solid #70ad55;
+}
+
+footer {
+  color: #fff;
+}
