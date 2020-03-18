@@ -14,24 +14,24 @@
 
   <section class="wrapper">
     <div>
-      <div class="header gutter pad-t">
-        <h1 class="push-1-2 bold zetta">Apply to be a tree planter</h1>
+      <header class="header gutter pad-t">
+        <h1 class="push-1-2 bold exa">Apply to be a tree planter</h1>
         <p class="bold pad-b-1-2 giga">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
-      </div>
+      </header>
       <form class="gutter" method="POST" action="index.html">
 
         <fieldset>
-          <legend class="pad-t-2 push bold">Personal details</legend>
+          <legend class="pad-t-2 push bold mega">Personal details</legend>
           <div class="grid section-border">
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
               <label for="name">Full name</label>
               <input id="name" name="name" required>
-              <p class="italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+              <p class="italic milli">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
               <label for="nickname">What should we call you?</label>
               <input id="nickname" name="nickname">
-              <p class="italic">What all your friends call you, e.g. “Liz”.</p>
+              <p class="italic milli">What all your friends call you, e.g. “Liz”.</p>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2">
               <label for="birthday">Date of birth</label>
@@ -40,7 +40,7 @@
             <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2">
               <label for="tshirt">T-shirt size</label>
               <select id="tshirt" name="tshirt">
-                <option>Select a t-shirt size</option>
+                <option value="">Select a t-shirt size</option>
                 <option>Fitted: XS</option>
                 <option>Fitted: S</option>
                 <option>Fitted: M</option>
@@ -72,13 +72,13 @@
               <input id="street" name="street" required>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <label for="street">City</label>
-              <input id="street" name="street" required>
+              <label for="city">City</label>
+              <input id="city" name="city" required>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
               <label for="province">Province</label>
               <select id="province" name="province">
-                <option>Select a province</option>
+                <option value="">Select a province</option>
                 <option>Alberta</option>
                 <option>British Columbia</option>
                 <option>Manitoba</option>
@@ -187,34 +187,34 @@
           <legend class="pad-t-1-2 push-1-2">Do you have a valid driver’s license?</legend>
           <div class="grid">
             <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
-              <input class="radio" type="radio" id="license">
+              <input class="radio" type="radio" name="license" id="license">
               <label for="license">Yes</label>
             </div>
             <div class="unit xs-3-4 s-3-4 m-3-4 l-3-4 push-2">
-              <input type="radio" id="license">
-              <label for="license">No</label>
+              <input type="radio" name="license-no" id="license-no">
+              <label for="license-no">No</label>
             </div>
           </div>
           <p class="bold push-1-2">Do you have a pick-up truck you’d be willing to use?</p>
           <div class="grid">
             <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
-              <input type="radio" id="truck">
+              <input type="radio" name="truck" id="truck">
               <label for="truck">Yes</label>
             </div>
             <div class="unit xs-3-4 s-3-4 m-3-4 l-3-4 push-2">
-              <input type="radio" id="truck">
-              <label for="truck">No</label>
+              <input type="radio" name="truck-no" id="truck-no">
+              <label for="truck-no">No</label>
             </div>
           </div>
           <p class="bold"> Do you have up-to-date first-aid certification?</p>
           <div class="grid section-border">
             <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
-              <input type="radio" id="certification">
+              <input type="radio" name="certification" id="certification">
               <label for="certification">Yes</label>
             </div>
             <div class="unit xs-3-4 s-3-4 m-3-4 l-3-4 push-2">
-              <input type="radio" id="certification">
-              <label for="certification">No</label>
+              <input type="radio" name="certification-no" id="certification-no">
+              <label for="certification-no">No</label>
             </div>
           </div>
         </fieldset>
@@ -227,7 +227,7 @@
         </fieldset>
 
         <div class="text-center">
-          <button class="btn btn-large push">Apply</button>
+          <button type="submit" class="btn btn-large push">Apply</button>
         </div>
       </form>
       <footer class="gutter pad-t pad-b bold">© Tree Hugger International Organization</footer>
