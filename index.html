@@ -22,7 +22,7 @@
 
         <fieldset>
           <legend class="pad-t-2 push bold giga">Personal details</legend>
-          <div class="grid section-border">
+          <div class="grid">
             <div class="unit xs-1 s-1 m-1-2 l-1-2 padright">
               <label class="push-1-8" for="name">Full name</label>
               <input id="name" name="name" required>
@@ -62,11 +62,12 @@
               <input type="tel" id="tel" name="tel">
             </div>
           </div>
+          <hr class="push-0 section-border">
         </fieldset>
 
         <fieldset>
           <legend class="pad-t-1-2 push giga">Address</legend>
-          <div class="grid section-border">
+          <div class="grid">
             <div class="unit xs-1 s-1 m-1-2 l-1-2 push-2 padright">
               <label class="push-1-8" for="street">Street address</label>
               <input id="street" name="street" required>
@@ -99,6 +100,7 @@
               <input id="postal" name="postal" required>
             </div>
           </div>
+          <hr class="push-0 section-border">
         </fieldset>
 
         <fieldset>
@@ -139,7 +141,7 @@
           </div>
 
           <p class="pad-t push-1-2 bold giga">Do you have any experience with the following?</p>
-          <div class="grid section-border">
+          <div class="grid">
             <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-4">
               <input class="checkbox" type="checkbox" id="shovels">
               <label for="shovels">Shovels</label>
@@ -181,6 +183,7 @@
               <label for="speaking">Speaking to groups</label>
             </div>
           </div>
+          <hr class="push-0 section-border">
         </fieldset>
 
         <fieldset>
@@ -207,7 +210,7 @@
             </div>
           </div>
           <p class="bold giga"> Do you have up-to-date first-aid certification?</p>
-          <div class="grid section-border">
+          <div class="grid">
             <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
               <input type="radio" name="certification" id="certification">
               <label for="certification">Yes</label>
@@ -217,12 +220,14 @@
               <label for="certification-no">No</label>
             </div>
           </div>
+          <hr class="push-0 section-border">
         </fieldset>
 
         <div class="push-2">
           <label for="comments" class="pad-t-1-2 bold push-1-8 giga">Please let us know any comments or questions you may have. <span class="option italic bold">(optional)</span></label>
-          <textarea id="comments" name="comments"></textarea>
+          <textarea class="push-2" id="comments" name="comments"></textarea>
         </div>
+        <hr class="push-2 section-border">
 
         <div class="text-center">
           <button type="submit" class="btn btn-big push bold">Apply</button>
