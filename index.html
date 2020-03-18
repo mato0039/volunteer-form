@@ -15,30 +15,30 @@
   <section class="wrapper">
     <div>
       <header class="header gutter pad-t">
-        <h1 class="push-1-2 bold exa">Apply to be a tree planter</h1>
-        <p class="bold pad-b-1-2 giga">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+        <h1 class="push-1-2 peta bold">Apply to be a tree planter</h1>
+        <p class="bold pad-b-1-2 mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
       </header>
       <form class="gutter" method="POST" action="index.html">
 
         <fieldset>
-          <legend class="pad-t-2 push bold mega">Personal details</legend>
+          <legend class="pad-t-2 push bold giga">Personal details</legend>
           <div class="grid section-border">
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <label for="name">Full name</label>
+              <label class="push-1-8" for="name">Full name</label>
               <input id="name" name="name" required>
               <p class="italic milli">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
             </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <label for="nickname">What should we call you?</label>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-4">
+              <label class="push-1-8" for="nickname">What should we call you?</label>
               <input id="nickname" name="nickname">
               <p class="italic milli">What all your friends call you, e.g. “Liz”.</p>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2">
-              <label for="birthday">Date of birth</label>
+              <label class="push-1-8" for="birthday">Date of birth</label>
               <input type="date" id="birthday" name="birthday" required>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2">
-              <label for="tshirt">T-shirt size</label>
+              <label class="push-1-8" for="tshirt">T-shirt size</label>
               <select id="tshirt" name="tshirt">
                 <option value="">Select a t-shirt size</option>
                 <option>Fitted: XS</option>
@@ -54,11 +54,11 @@
               </select>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2">
-              <label for="email">Email</label>
+              <label class="push-1-8" for="email">Email</label>
               <input type="email" id="email" name="email" required>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2 push-2">
-              <label for="tel">Phone number (optional)</label>
+              <label class="push-1-8" for="tel">Phone number (optional)</label>
               <input type="tel" id="tel" name="tel">
             </div>
           </div>
@@ -67,16 +67,16 @@
         <fieldset>
           <legend class="pad-t-1-2 push">Address</legend>
           <div class="grid section-border">
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <label for="street">Street address</label>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 push-2">
+              <label class="push-1-8" for="street">Street address</label>
               <input id="street" name="street" required>
             </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <label for="city">City</label>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 push-2">
+              <label class="push-1-8" for="city">City</label>
               <input id="city" name="city" required>
             </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <label for="province">Province</label>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 push-2">
+              <label class="push-1-8" for="province">Province</label>
               <select id="province" name="province">
                 <option value="">Select a province</option>
                 <option>Alberta</option>
@@ -219,12 +219,10 @@
           </div>
         </fieldset>
 
-        <fieldset>
-          <legend class="pad-t-1-2">Please let us know any comments or questions you may have. <span class="option italic">(optional)</span></legend>
-          <div class="push">
-            <textarea id="comments" name="comments"></textarea>
-          </div>
-        </fieldset>
+        <div class="push-2">
+          <label for="comments" class="pad-t-1-2 bold push-1-8">Please let us know any comments or questions you may have. <span class="option italic not-bold">(optional)</span></label>
+          <textarea id="comments" name="comments"></textarea>
+        </div>
 
         <div class="text-center">
           <button type="submit" class="btn btn-large push">Apply</button>
