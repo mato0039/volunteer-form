@@ -1,6 +1,5 @@
 html {
   font-family: "Noto Serif", serif;
-  background-color: #70ad55;
 }
 
 label {
@@ -11,7 +10,9 @@ form {
   background-color: #fff;
 }
 
-.header {
+header,
+footer {
+  background-color: #70ad55;
   color: #fff;
 }
 
@@ -21,27 +22,27 @@ fieldset {
 
 input,
 select,
-textarea,
+textarea {
+  border-color: #6e8c62;
+}
+
 .checkbox {
   border-color: #6e8c62;
 }
 
 .section-border {
-  border: 1px solid #6e8c62;
+  border: 1px solid #70ad55;
+  opacity: .3;
 }
 
 .option {
-  color: #6e8c62;
+  color: #70ad55;
 }
 
 .btn {
   background-color: #6e8c62;
   border: #6e8c62;
   padding: .75rem 2rem;
-}
-
-footer {
-  color: #fff;
 }
 
 @media only screen and (min-width: 38em) {
