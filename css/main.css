@@ -22,7 +22,9 @@ fieldset {
 
 input,
 select,
-textarea {
+textarea,
+input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
   border-color: #6e8c62;
 }
 
@@ -45,10 +47,14 @@ textarea {
   padding: .75rem 2rem;
 }
 
+textarea {
+  height: 10em;
+}
+
 @media only screen and (min-width: 38em) {
 
   .padright {
-    padding-right: .75rem;
+    padding-right: 1rem;
   }
 
 }
